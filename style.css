@@ -1,0 +1,70 @@
+@media screen {
+html {
+	background-color: #EBEBFF;
+
+}
+body {
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Elsie', cursive, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: green;
+	background-color: #fafafa;
+	padding: 40px;
+	text-align: justify;
+	
+
+}
+h1 {font-family: 'Elsie Swash Caps', cursive;
+	color: #999;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+h2 {font-family: Georgia, serif;
+	color:#999;
+	text-transform: uppercase;
+
+
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+	a:link {
+		color: #38c;
+	}
+	a:visited {
+	color: #8c3;
+	}
+	a:hover, /*uses the color indicated from before*/
+	a:focus {
+		color: #3c8;
+		font-weight: bold; /*makes text go bold when cursor is over it*/
+	}
+	a:active{
+		color: #333;
+
+	}
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 768px) {
+body {
+	width: 700px;
+	margin: 20px auto;
+
+}
+	li {
+		display:inline; /*supposedly makes the list horizontal, rather than vertical*/
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+}
